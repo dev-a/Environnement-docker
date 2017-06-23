@@ -2,7 +2,7 @@ FROM alpine:latest
 
 RUN	apk update && \
 		apk add nodejs curl git && \
-		rm -rf /var/cache/apk/* && \
+#		rm -rf /var/cache/apk/* && \
 		apk add nodejs-npm && npm install npm@latest -g && \
     	npm install -g grunt-cli && \
     	npm install -g http-server
