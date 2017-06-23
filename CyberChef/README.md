@@ -9,6 +9,8 @@
 > docker run -p 8000:8000 dev-a/cyberchef 
 
 ## Compiler cyberchef
+>docker exec -it $(docker ps -q -f ancestor=dev-a/cyberchef) sh
+
 > cd mnt/CyberChef/
 
 > grunt prod
