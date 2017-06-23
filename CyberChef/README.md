@@ -2,7 +2,7 @@
 # Comment l'utiliser 
 
 ## construire le conteneur (a executer depuis le repertoire contenant le dockerfile)
-> docker build dev-a/cyberchef .
+> docker build -t dev-a/cyberchef .
 
 
 ## Lancer le conteneur
